@@ -1,5 +1,5 @@
 import { SocialLink } from "../lib/SocialLink.ts"
-import { BsEnvelopeFill, BsGithub } from "react-icons/bs"
+import { BsEnvelopeFill, BsGithub, BsLinkedin } from "react-icons/bs"
 
 /**
  * Social links to be displayed in the contact section.
@@ -10,12 +10,17 @@ import { BsEnvelopeFill, BsGithub } from "react-icons/bs"
 export const socialLinks: SocialLink[] = [
   {
     icon: <BsGithub />,
-    link: "https://github.com",
+    link: "https://github.com/Gurpreet-3315",
     description: "@myGithub",
   },
   {
+    icon: <BsLinkedin />,
+    link: "https://linkedin.com/in/gurpreet-singh3315",
+    description: "@myLinkedIn",
+  },
+  {
     icon: <BsEnvelopeFill />,
-    link: "mailto:mail@example.com",
-    description: "mail@example.com",
+    link: "mailto:gurpreet29112005@gmail.com",
+    description: "@myEmail",
   },
 ]
